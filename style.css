@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+:root {
+    --primary-color: #808080;
+    --gray-light: #f0f0f0;
+    --button-blue-color: #4e94f0;
+    --red-marker-icon: #e64c4c;
+    --very-light-gray: #e2e0e0bd;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    background-color: rgba(201, 176, 224, 0.616);
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+/*************nav started****************/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 2px solid rgb(150, 54, 206);
+    height: 4rem;
+    border-bottom-left-radius: 10px;
+}
+
+.nav-icons button {
+    padding: 8px 12px;
+    border-radius: 2px;
+    border: 1px;
+    background-color: rgba(126, 35, 211, 0.616);
+    color: white;
+    border: 1px solid rgb(150, 54, 206);
+}
+
+.hero img{
+    width: 100%;
+    height: 20rem;
+    /* border-radius: 0px;
+    border-bottom-left-radius: 10px; */
+}
+
+.quiz-section {
+    margin-left: 10%;
+    margin-right: 10%;
+    /* background-color: rgba(126, 35, 211, 0.616); */
+}
+.quiz-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    /* background-color: rgba(182, 140, 221, 0.616); */
+    justify-content: center;
+}
+
+.quiz-list li {
+    height: 20%;
+    width: 25%;
+    padding: 0.5rem;
+    background-color: rgba(37, 6, 66, 0.616);
+    border-radius: 1.5rem;
+}
+
+.quiz-image {
+    width: 100%;
+    height: 60%;
+}
+.quiz-image img {
+    width: 100%;
+    height: 60%;
+    border-radius: 1.5rem;
+}
+
+.quiz-list-h2 {
+    background-color: bisque;
+}
+
+.quiz-list p {
+    color:bisque;
+}
+
+.section-heading {
+    padding: 20px;
+}
