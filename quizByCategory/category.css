@@ -60,3 +60,7 @@ li {
 .quiz-list p {
     color: bisque;
 }
+
+button {
+    cursor: pointer;
+}
