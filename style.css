@@ -107,3 +107,7 @@ footer {
 footer a {
     padding: 0.4rem 1rem;
 }
+
+button {
+    cursor: pointer;
+}
