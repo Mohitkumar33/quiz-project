@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    color: white;
+    font-size: 1.2rem;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(6, 6, 49);
+}
+
+ul {
+    list-style: none;
+}
+h1 {
+    font-size: 1.8rem;
+}
+main {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+}
+.timmer {
+    position: fixed;
+    top: 0;
+    right: 1rem;
+}
+
+/* .button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+.button {
+    margin-top: 2.5rem;
+}
+.button * {
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 85%;
+    border-radius: 50px;
+    background-color: rgb(38, 38, 88);
+    border: transparent;
+}
+
+button:hover {
+    background-color: rgb(60, 60, 117);
+}
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;   
+}
+
+.pagination button {
+    color: rgb(6, 6, 49);
+
+}
+.pagination button:hover {
+    color: white;
+    border: transparent;
+}
+.score-result {
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
