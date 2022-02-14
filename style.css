@@ -106,4 +106,26 @@ footer {
 
 footer a {
     padding: 0.4rem 1rem;
+<<<<<<< HEAD
+}
+
+button {
+    cursor: pointer;
+}
+
+.all-pages-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.all-pages-buttons * {
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(38, 38, 88);
+    border: transparent;
+    color: white;
+=======
+>>>>>>> 1bc0a99efa47d844a758b862c6894851191ef4b4
 }
