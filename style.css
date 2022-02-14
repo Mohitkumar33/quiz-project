@@ -106,6 +106,7 @@ footer {
 
 footer a {
     padding: 0.4rem 1rem;
+<<<<<<< HEAD
 }
 
 button {
@@ -125,4 +126,6 @@ button {
     background-color: rgb(38, 38, 88);
     border: transparent;
     color: white;
+=======
+>>>>>>> 1bc0a99efa47d844a758b862c6894851191ef4b4
 }
