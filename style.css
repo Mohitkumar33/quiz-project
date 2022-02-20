@@ -13,7 +13,6 @@
 body {
     margin: 0;
     width: 100%;
-    background-color: var(--body-color);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -28,18 +27,23 @@ nav {
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
-    border-bottom: 2px solid var(--nav-border);
+    /* border-bottom: 2px solid var(--nav-border); */
     height: 4rem;
     border-bottom-left-radius: 10px;
+    background-color: rgb(108, 108, 143);
+}
+
+.brand-name {
+    text-shadow: 0 0 1em white, 0 0 0.2em white;
 }
 
 .nav-icons button {
     padding: 8px 12px;
     border-radius: 2px;
-    border: 1px;
-    background-color: var(--button-color);
-    color: white;
-    border: 1px solid var(--nav-border);
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    ;
 }
 
 /**********nav end*****************/
