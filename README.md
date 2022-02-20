@@ -13,3 +13,19 @@
  - And at the end you can see the score of the quiz and check the answers of the question.
  # Talking about the repo structure
  The root folder contains the html and css files of the home page and the folders contains the html and css files of the particular page.
+ 
+ # Understanding my commits
+ Hello, here are the meaning of the commits
+- feat: new feature added
+
+- fix: fixed a bug
+
+- docs: changes in documentation
+
+- style: style related
+
+- refactor: code changes that neither changes a but nor fixes an error
+
+- test: everything related to testing
+
+- chore: updating building task, package manager etc
