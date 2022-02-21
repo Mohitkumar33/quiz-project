@@ -43,7 +43,6 @@ nav {
     background-color: white;
     color: black;
     border: 1px solid black;
-    ;
 }
 
 /**********nav end*****************/
@@ -126,8 +125,9 @@ button {
 
 .all-pages-buttons * {
     padding: 10px;
-    border-radius: 50px;
-    background-color: rgb(38, 38, 88);
+    border-radius: 10px;
+    background-color: rgb(79, 79, 134);
+    /* background-color: rgb(38, 38, 88); */
     border: transparent;
     color: white;
 }
